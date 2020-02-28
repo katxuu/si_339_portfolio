@@ -1,0 +1,71 @@
+
+
+img {
+	height: 300px;
+}
+
+#download {
+	height: 100px;
+}
+
+#enewsletter:hover {
+	opacity: 50%;
+}
+
+/*body*/
+body{
+	background-color: #f1f7ed;
+	color: #54494b;
+
+}
+
+/*grid*/
+
+.container{
+	display: grid;
+	grid-template-columns: 250px auto 250px;
+	grid-template-rows: 500px 500px 500px;
+
+}
+
+.bio .education .hopes {
+	grid-column-start: 2/ span 1;
+}
+
+/*navbar*/
+
+header {
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+}
+
+#logo {
+	display: block;
+	height: 100px;
+	margin: auto;
+}
+
+.nav_links{
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px;
+	font-family: 'Permanent Marker', 'sans-serif';
+
+}
+
+.nav_item a:link, a:visited {
+	text-decoration: none;
+	color: #54494b;
+}
+
+.nav_item a:hover {
+	font-size: 130%;
+	text-decoration: underline;
+	text-decoration-color: #b33951;
+	color: #91c7b1;
+}
+
+
