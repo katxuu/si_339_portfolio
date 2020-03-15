@@ -1,7 +1,6 @@
-
-
 img {
 	height: 300px;
+	width: 200px;
 }
 
 #download {
@@ -23,13 +22,29 @@ body{
 
 .container{
 	display: grid;
-	grid-template-columns: 250px auto 250px;
 	grid-template-rows: 500px 500px 500px;
+	grid-template-columns: 225px auto;
 
 }
 
-.bio .education .hopes {
-	grid-column-start: 2/ span 1;
+#headshot, #big, #spain {
+	grid-column: 1;
+}
+
+.bio, .education, .hopes {
+	grid-column: 2;
+}
+
+.bio, #headshot{
+	grid-row: 1;
+}
+
+.education, #big{
+	grid-row: 2;
+}
+
+.hopes, #spain{
+	grid-row: 3;
 }
 
 /*navbar*/
@@ -67,5 +82,7 @@ header {
 	text-decoration-color: #b33951;
 	color: #91c7b1;
 }
+
+
 
 
